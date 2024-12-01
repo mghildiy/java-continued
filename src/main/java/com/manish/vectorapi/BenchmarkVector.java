@@ -7,6 +7,8 @@ import org.openjdk.jmh.annotations.*;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+
+// VM option: --add-modules jdk.incubator.vector --enable-preview
 public class BenchmarkVector {
 
     static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
